@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The RGB Color Game</title>
+    <!-- favicon link -->
+    <link rel="shortcut icon" href="/Gaming Website/images/arcade-favicon.png" type="image/x-icon">
+    <!-- CSS -->
+    <link rel="stylesheet" href="rgbGame.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <h1>Welcome to the
+        <br>
+        <span id="colorDisplay">RGB</span>
+        <br>
+        Guessing Game
+    </h1>
+
+    <div id="stripe">
+        <button id="reset">New Colors</button>
+        <span id="message"></span>
+        <button class = "mode">Easy</button>
+        <button class="selected mode" id="hardbtn">Hard</button>
+    </div>
+    <div id="container">
+        <div class="square"></div>
+        <div class="square"></div>
+        <div class="square"></div>
+        <div class="square"></div>
+        <div class="square"></div>
+        <div class="square"></div>
+    </div>
+
+    <!-- Javascript -->
+    <script src="rgbGame.js"></script>
+</body>
+
+</html>

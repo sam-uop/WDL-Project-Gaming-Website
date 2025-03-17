@@ -1,0 +1,74 @@
+body {
+    background-color: #232323;
+    margin: 0;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.square {
+    width: 30%;
+    background: purple;
+    padding-bottom: 30%;
+    float: left;
+    margin: 1.66%;
+    border-radius: 20%;
+    transition: background 0.7s;
+    /* adding this for browser support so that they work in all browsers */
+    -webkit-transition: background 0.7s;
+    -moz-transition: background 0.7s;
+}
+
+button {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 700;
+    letter-spacing: 1px;
+    font-size: inherit;
+    color: steelblue;
+    border: none;
+    outline: none;
+    background: none;
+    text-transform: uppercase;
+    height: 100%;
+    transition: all 0.7s;
+    -webkit-transition: background 0.7s;
+    -moz-transition: background 0.7s;
+}
+
+button:hover {
+    color: white;
+    background: steelblue;
+}
+
+#container {
+    max-width: 700px;
+    margin: 40px auto;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    background-color: steelblue;
+    margin: 0;
+    font-weight: normal;
+    text-transform: uppercase;
+    line-height: 1.4;
+    padding: 20px 0;
+}
+
+#message {
+    display: inline-block;
+    width: 20%;
+}
+
+#colorDisplay {
+    font-size: 200%;
+}
+#stripe {
+    background-color: white;
+    height: 40px;
+    text-align: center;
+}
+
+.selected {
+    color: white;
+    background: steelblue;
+}
